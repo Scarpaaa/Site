@@ -1,0 +1,45 @@
+#minhaImagem {
+    width: 600px;
+    height: 600px;
+    background-color: red; 
+    animation: animacaoRGB 1s infinite;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 100px;
+}
+
+
+@keyframes animacaoRGB {
+    0% {
+        background-color: rgb(241, 11, 203); 
+    }
+    50% {
+        background-color: rgb(67, 6, 117); 
+    }
+    100% {
+        background-color: rgb(139, 17, 9); 
+    }
+}
+#minhaImagem1{
+    border-radius: 100px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    animation: animacaoRGB 1s infinite;
+}
+#meuBotao{
+   background-color: transparent;
+   border: none;
+   transform: rotate(-90deg);
+   
+}
+#meuBotao1{
+    background-color: transparent;
+    border: none;
+}
